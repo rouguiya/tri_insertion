@@ -1,0 +1,20 @@
+ALGORITHM tri_insertion;
+VAR
+    i,j,k:integer;
+    tab:array[1..n] of integer;
+BEGIN
+  write('donner les élément')
+  read(tab[i],tab[j])
+   for i:=0 to n-1 do
+   for j:=0 to n-1 do
+   k:=tab[i];
+   j:=i-1;
+   WHILE (j>=0 end tab[j]>k) DO
+write('le premiére élément')
+ tab[j+1]:=tab[j];
+    j:=j-1;
+    END_WHILE 
+    tab[j+1]:=k;
+    end for
+    write('tri par insertion')             
+END.
